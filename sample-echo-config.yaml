@@ -1,0 +1,5 @@
+AllowMultiUserRegistration: false
+ServerAuthToken: "<FCM_TOKEN>"
+WebPort: "8011"
+AdminUser: ""
+AdminPass: ""
