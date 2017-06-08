@@ -13,13 +13,14 @@ run
 
 This will start the service in the foreground on :8011
 
-The default username is Admin and the default pass is AdminPass, change 
-these via the config file as soon as possible.
+Copy the sample config to echo-config.yaml
 
-Once the service is running open the application and enter your details
-into the app. 
+Set the value for all the keys provided in the sample config.
 
-Done, thats all there is to setup , simple use the webservice URL as the callback URL for your canary tokens and you will get notified anytime one of them is triggered via a push notification.
+Once the service is running open the mobile application and enter your details
+into the app and using your hostname in the host field. 
+
+Done, thats all there is to setup. You can now simply use the webservice URL as the callback URL for your canary tokens and you will get notified anytime one of them is triggered via a push notification.
 
 ### Dependancies
 
